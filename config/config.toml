@@ -1,7 +1,8 @@
-# If set to empty string, pulls from input_sqlite
+# If set to empty string, uses default directory
 # but can be set to a directory elsewhere
 # e.g. C:/.../temoa/data_files/
 input_sqlite_directory = ''
+output_tables_directory = ''
 
 [tables]
 capacity_by_period = 'Output_CapacityByPeriodAndTech'

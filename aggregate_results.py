@@ -16,6 +16,7 @@ sqlite_dir = this_dir + "input_sqlite/"
 config = toml.load(config_dir + 'config.toml')
 
 if config['input_sqlite_directory'] != '': sqlite_dir = config['input_sqlite_directory']
+if config['output_tables_directory'] != '': out_dir = config['output_tables_directory']
 
 
 
@@ -29,6 +30,8 @@ def aggregate_by_database():
         db = sqlite_dir + f"{cat_config['database']}.sqlite"
 
         aggregate_category(cat_config, db)
+    
+    pp.show()
         
         
 
@@ -92,10 +95,10 @@ def aggregate_category(cat_config, db):
     #elif cat_config['plot'] == 'bar':
     #elif cat_config['plot'] == 'stacked bar':
     else: return
-
+    
+    pp.title(cat_config['category'])
     pp.xticks(df_all.columns)
     pp.legend(df_all.index)
-    pp.show()
 
 
 

@@ -3,5 +3,3 @@ annual heating,natural gas,#ddaa77,TRUE,,,,,,,,NG,,D_R_SPH
 annual heating,natural gas,#ffffff,TRUE,,,,,,,,NG,,D_R_SPH
 annual heating,oil,#aaaaaa,TRUE,,,,,,,,OIL,,D_R_SPH
 annual heating,heat pump,#55cc55,TRUE,,,,,,,,HP,,D_R_SPH
-annual generation,hydro,#0000ff,TRUE,,,,,,,,HYD,,elc
-annual generation,wind,#55cc55,TRUE,,,,,,,,WND,,elc
