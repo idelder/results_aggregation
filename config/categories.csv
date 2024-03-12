@@ -1,3 +1,3 @@
 ﻿category,database,table,run,vary_over,plot
-annual heating,residential,flow_out,TRUE,t_periods,stack
-npv,residential,costs,TRUE,regions,stack
+annual heating,example_residential,flow_out,TRUE,t_periods,stack
+npv,example_residential,costs,TRUE,regions,stack

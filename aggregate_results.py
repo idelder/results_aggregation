@@ -59,7 +59,7 @@ def aggregate_category(cat_config, db):
             for key, value in row.items():
                 
                 if pd.isna(value): continue
-                command += f" {key} LIKE '%{value}%' AND"
+                command += f" {key} LIKE '{value}' AND"
 
             if command.endswith("WHERE"): continue # no conditions were set
             command = command[0:-4] # remove excess ' AND'

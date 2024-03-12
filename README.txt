@@ -11,7 +11,7 @@
 	- aggregate: name of the aggregate, e.g. 'Natural Gas'. Typical to have several aggregates (rows) per category
 	- colour: colour of this aggregate when plotting (RGB hexidecimal, #000000 is black, #ffffff white, #ff0000 red etc)
 	- include: whether to include this aggregate in the category. Might want to skip one or two aggregates sometimes
-	- remaining columns: each of these corresponds to a data column in the Output_... table of the sqlite database. The script will filter these using the LIKE sql operator as e.g. tech LIKE '%foo%' where foo is the value in the tech column for that aggregate row. This will sum values of all rows in the data table where the tech column contains the string 'foo'. Multiple filters may be set.
+	- remaining columns: each of these corresponds to a data column in the Output_... table of the sqlite database. The script will filter these using the LIKE sql operator as e.g. tech LIKE 'foo' where foo is the value in the tech column for that aggregate row. Can set values like foo% or %foo% which will catch any techs starting with or containing foo, respectively. This will sum values of all rows in the data table where the tech column contains the string 'foo'. Multiple filters may be set.
 
 3. Run using temoa-py3
 	>conda activate temoa-py3

@@ -1,5 +1,5 @@
 ﻿category,aggregate,colour,include,regions,scenario,sector,t_periods,t_season,t_day,input_comm,tech,vintage,output_comm
-annual heating,natural gas,#ddaa77,TRUE,,,,,,,,NG,,D_R_SPH
-annual heating,natural gas,#ffffff,TRUE,,,,,,,,NG,,D_R_SPH
-annual heating,oil,#aaaaaa,TRUE,,,,,,,,OIL,,D_R_SPH
-annual heating,heat pump,#55cc55,TRUE,,,,,,,,HP,,D_R_SPH
+annual heating,natural gas,#ddaa77,TRUE,,,,,,,,%NG%,,D_R_SPH
+annual heating,natural gas,!!!Takes colour for first category-aggregate index so this is ignored,TRUE,,,,,,,,R_SPH_NG%,,D_R_SPH
+annual heating,oil,#aaaaaa,TRUE,,,,,,,r_%,%OIL%,,D_R_SPH
+annual heating,heat pump,#55cc55,TRUE,,,,,,,,%HP%,,D_R_SPH
