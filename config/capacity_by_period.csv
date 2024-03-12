@@ -1,0 +1,3 @@
+﻿category,aggregate,colour,include,regions,scenario,sector,t_periods,tech
+capacity electricity,ontario,#0000ff,TRUE,ON,,,,E_
+capacity electricity,alberta,#ff0000,TRUE,AB,,,,E_

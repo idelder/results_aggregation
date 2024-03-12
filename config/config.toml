@@ -1,0 +1,13 @@
+# If set to empty string, pulls from input_sqlite
+# but can be set to a directory elsewhere
+# e.g. C:/.../temoa/data_files/
+input_sqlite_directory = ''
+
+[tables]
+capacity_by_period = 'Output_CapacityByPeriodAndTech'
+capacity_by_vintage = 'Output_V_Capacity'
+costs = 'Output_Costs'
+curtailment = 'Output_Curtailment'
+emissions = 'Output_Emissions'
+flow_in = 'Output_VFlow_In'
+flow_out = 'Output_VFlow_Out'

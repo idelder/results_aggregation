@@ -1,0 +1,4 @@
+﻿category,database,table,run,vary_over,plot
+annual heating,residential,flow_out,TRUE,t_periods,stack
+annual generation,CANOE - Black box 1 Day,flow_out,FALSE,t_periods,stack
+capacity electricity,CANOE - GB Residential 1D,capacity_by_period,FALSE,t_periods,stack

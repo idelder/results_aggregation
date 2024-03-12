@@ -1,0 +1,3 @@
+﻿category,aggregate,colour,include,regions,scenario,sector,output_name,tech,vintage
+npv,ontario,#0000ff,TRUE,ON,,,Discounted,,
+npv,alberta,#ff0000,TRUE,AB,,,Discounted,,
